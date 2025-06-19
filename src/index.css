@@ -1,0 +1,21 @@
+@import "tailwindcss";
+body{
+    font-family:  Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+/* Custom scrollbar */
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  @apply bg-black ;
+}
+
+body::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
