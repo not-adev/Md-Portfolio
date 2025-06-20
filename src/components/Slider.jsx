@@ -59,7 +59,7 @@ const Slider = () => {
                 <div ref={slide_container}  className=' h-auto flex gap-4 items-center transition-transform duration-700 ease-initial  justify-center transform  w-[300%]  m-auto '>
 
                     <div className={`w-[33%] slide flex flex-col items-center justify-center`}>
-                        <div onMouseLeave={mouseLeaveHandle} onMouseEnter={mouseEnterHandle} className='rounded-2xl relative md:w-[577px] w-full border bg-[url(/project!.png)] group bg-no-repeat bg-contain bg-center flex flex-col justify-end h-[350px]'>
+                        <div onMouseLeave={mouseLeaveHandle} onMouseEnter={mouseEnterHandle} className='rounded-2xl relative md:w-[577px] w-full border bg-[url(/project1.png)] group bg-no-repeat bg-contain bg-center flex flex-col justify-end h-[350px]'>
                             <button className="absolute top-2 right-3 border px-3 py-1.5 hidden group-hover:block rounded-lg border-purple-600 shadow-purple-600 hover:cursor-pointer hover:bg-purple-700 hover:border-white">
                                 <a target="_blank" href="https://not-adev.github.io/Netflix-clone-/">Link</a>
                             </button>
