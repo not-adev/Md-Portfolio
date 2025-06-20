@@ -73,7 +73,7 @@ const Slider = () => {
 
                         <div onMouseLeave={mouseLeaveHandle} onMouseEnter={mouseEnterHandle} className='relative rounded-2xl border bg-[url(/project2.png)] md:w-[577px] w-full group bg-no-repeat bg-contain bg-center flex flex-col  justify-end h-[350px]'>
                              <button className="absolute top-2 right-3 border px-3 py-1.5 hidden group-hover:block rounded-lg border-purple-600 shadow-purple-600 hover:cursor-pointer hover:bg-purple-700 hover:border-white">
-                                <a target="_blank" href="https://not-adev.github.io/spomtify/">Link</a>
+                                <a target="_blank" href="https://not-adev.github.io/music-app/">Link</a>
                             </button>
                             <div className='bg-[white] text-black p-2 border-t text-sm rounded-b-2xl h-0 text-center transition-all duration-1000 opacity-0 group-hover:h-[150px] group-hover:opacity-100 overflow-hidden '>
                                 Developed a dynamic music streaming web application using React and Tailwind CSS, enabling seamless search functionality and playback control. Integrated intuitive music flow management, allowing users to navigate tracks efficiently. Designed a responsive UI with Tailwind for an optimized listening experience across devices, ensuring smooth interaction and fast performance.
