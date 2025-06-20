@@ -59,9 +59,9 @@ const Slider = () => {
                 <div ref={slide_container}  className=' h-auto flex gap-4 items-center transition-transform duration-700 ease-initial  justify-center transform  w-[300%]  m-auto '>
 
                     <div className={`w-[33%] slide flex flex-col items-center justify-center`}>
-                        <div onMouseLeave={mouseLeaveHandle} onMouseEnter={mouseEnterHandle} className='rounded-2xl relative md:w-[577px] w-full border bg-[url(/Netflix.png)] group bg-no-repeat bg-contain bg-center flex flex-col justify-end h-[350px]'>
+                        <div onMouseLeave={mouseLeaveHandle} onMouseEnter={mouseEnterHandle} className='rounded-2xl relative md:w-[577px] w-full border bg-[url(/project!.png)] group bg-no-repeat bg-contain bg-center flex flex-col justify-end h-[350px]'>
                             <button className="absolute top-2 right-3 border px-3 py-1.5 hidden group-hover:block rounded-lg border-purple-600 shadow-purple-600 hover:cursor-pointer hover:bg-purple-700 hover:border-white">
-                                <a href="https://not-adev.github.io/Netflix-clone-/">Link</a>
+                                <a target="_blank" href="https://not-adev.github.io/Netflix-clone-/">Link</a>
                             </button>
                             <div className='bg-[white] text-black p-2 border-t text-sm rounded-b-2xl h-0 text-center transition-all duration-1000 opacity-0 group-hover:h-[150px] group-hover:opacity-100 overflow-hidden '>
                                 A sleek, modern web experience crafted with precision—no JavaScript, no frameworks, just pure HTML & CSS. This project embodies the power of styling, layout mastery, and creative UI elements, proving that simplicity can be stunning. Dsigned to enhance user experience without compromising performance.
@@ -71,7 +71,7 @@ const Slider = () => {
 
                     <div className='w-[33%] slide flex text-white   items-center justify-center'>
 
-                        <div onMouseLeave={mouseLeaveHandle} onMouseEnter={mouseEnterHandle} className='relative rounded-2xl border bg-[url(/spomtfy.png)] md:w-[577px] w-full group bg-no-repeat bg-contain bg-center flex flex-col  justify-end h-[350px]'>
+                        <div onMouseLeave={mouseLeaveHandle} onMouseEnter={mouseEnterHandle} className='relative rounded-2xl border bg-[url(/project2.png)] md:w-[577px] w-full group bg-no-repeat bg-contain bg-center flex flex-col  justify-end h-[350px]'>
                              <button className="absolute top-2 right-3 border px-3 py-1.5 hidden group-hover:block rounded-lg border-purple-600 shadow-purple-600 hover:cursor-pointer hover:bg-purple-700 hover:border-white">
                                 <a target="_blank" href="https://not-adev.github.io/spomtify/">Link</a>
                             </button>
@@ -84,9 +84,9 @@ const Slider = () => {
 
 
                     <div className='w-[33%]  slide flex flex-col items-center justify-center'>
-                        <div onMouseLeave={mouseLeaveHandle} onMouseEnter={mouseEnterHandle} className=' relative rounded-2xl border bg-[url(/pokemon-game.png)] md:w-[577px] w-full  group bg-no-repeat bg-contain bg-center flex flex-col  justify-end h-[350px] '>
+                        <div onMouseLeave={mouseLeaveHandle} onMouseEnter={mouseEnterHandle} className=' relative rounded-2xl border bg-[url(/project3.png)] md:w-[577px] w-full  group bg-no-repeat bg-contain bg-center flex flex-col  justify-end h-[350px] '>
                              <button className="absolute top-2 right-3 border px-3 py-1.5 hidden group-hover:block rounded-lg border-purple-600 shadow-purple-600 hover:cursor-pointer hover:bg-purple-700 hover:border-white">
-                                <a href="#">Link</a>
+                                <a href="">worikingn on It</a>
                             </button>
                             <div className='bg-[white] text-black border-t p-2 text-sm rounded-b-2xl h-0 text-center transition-all duration-1000 opacity-0 group-hover:h-[150px] group-hover:opacity-100 overflow-hidden '>
                                 Develpoing a Pokemon game where player guess the pokemon based on some hints .Game supports different modes such as rapid fire , also supporsts multiplayer functionality allowing player to play with and against their friends 
